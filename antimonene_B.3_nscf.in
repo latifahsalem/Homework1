@@ -1,0 +1,30 @@
+&CONTROL
+    calculation='nscf'
+    prefix='antimonene_B'
+    restart_mode='from_scratch'
+    outdir='./outdir'
+    pseudo_dir='/home/latifah/quantumEspresso_2019/pslibrary.1.0.0'
+/
+&SYSTEM
+    ibrav = 0, celldm(1) = 7.78567167
+    nat = 2, ntyp = 1,
+    ecutwfc = 47.0 ,
+    ecutrho = 200.0 ,
+    occupations = 'tetrahedra', 
+/
+&ELECTRONS
+    conv_thr = 1.0d-10,
+    mixing_beta = 0.3,
+/
+ATOMIC_SPECIES
+Sb 121.760 Sb.pbe-dn-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS alat
+   1.012653430  -0.000000000   0.000000000
+  -0.506326715   0.876983595   0.000000000
+   0.000000000   0.000000000   7.281553398
+
+ATOMIC_POSITIONS crystal
+Sb 0.333333333 0.666666667 0.000000000
+Sb 0.666666667 0.333333333 0.055000000
+K_POINTS automatic
+8 8 1 0 0 0

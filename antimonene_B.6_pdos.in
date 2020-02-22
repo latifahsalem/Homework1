@@ -1,0 +1,6 @@
+&projwfc
+    prefix='antimonene_B'
+    outdir='./outdir/'
+    lwrite_overlaps=.true.
+    filpdos='Sb_B.pdos.dat'
+/

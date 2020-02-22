@@ -1,0 +1,7 @@
+&DOS
+    prefix='antimonene_B'
+    outdir='./outdir/'
+    fildos='antimonene_B.dos.dat'
+    emin=-31.382
+    emax=3.388
+/
